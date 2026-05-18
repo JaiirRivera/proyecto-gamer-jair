@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida Jair</title>
+<style>
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        background: linear-gradient(to bottom, #0A0F1F, #111827);
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }   
+    p{
+    margin-top: 20px;
+}
+h1{
+
+    color: aqua;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h2{
+    margin-top: 20px;
+}
+.seccion{
+    background-color: #111827;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+    .tarjeta{
+        transition: 0.5s;
+        background-color: #1f2937;
+        padding: 30px;
+        border-radius: 20px;
+        width: 600px;
+        box-shadow: 0 20px 20px aqua;
+        text-align: center;
+        margin-top: 30px;
+    }
+    img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #0c4acf;
+}
+ul{
+    display: inline-block;
+    text-align: left;
+}
+.seccion:hover{
+    transform: scale(1.05);
+    box-shadow: 0 20px 20px aqua;
+    cursor: pointer;
+}
+button{
+    background-color: aqua;
+    color: #111827;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: white;
+    transform: scale(1.05);
+}
+</style>
+
+</head>
+<body>
+    <div class="tarjeta">  
+    <img src="fondo.jpg" alt="foto de perfil">
+
+    <h1>Jair Rivera
+    Desarrollador de Software
+    </h1>
+    <p> "Apasionado por la tecnologia y el aprendizaje" </p> 
+    <div class="seccion">
+<h2>Datos personales</h2>   
+    <ul>
+        <li>Ciudad: Santa Marta</li>
+        <li>Correo: jair7834@gmail.com</li>
+        <li>Teléfono: 3238125553</li>
+        <li>Edad: 27 años</li>
+        <li>Estado civil: Enamorado de Valentina Eguis</li>
+    </ul>
+</div>
+<div class="seccion">
+    <h2>Habilidades</h2>
+    <ul>
+        <li>HTML básico</li>
+        <li>CSS básico</li>
+        <li>Análisis de problemas</li>
+        <li>Adaptación rápida</li>
+        <li>Resolución de problemas</li>
+        <li>Trabajo en equipo</li>
+    </ul>
+</div>
+    <div class="seccion">
+     <h2>Experiencia</h2>
+    <ul>
+        <li>Soporte técnico</li>
+        <li>Colaboración en proyectos de desarrollo web</li>
+        <li>Participación en la resolución de problemas técnicos</li>
+    </ul>   
+    </div>
+    <div class="seccion">
+    <h2>Educación</h2>
+    <ul>
+        <li>Estudiante de Ingenieria de Software - 2025</li>
+    </ul>
+    </div>
+    
+    <a href="https://www.facebook.com/Jaiir.Rivera/" target="_blank">
+        <button>Contactame</button>
+    </a>
+ </div>
+    
+</body>
+</html>
